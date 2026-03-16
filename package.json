@@ -22,7 +22,8 @@
     "eslint-config",
     "prettier-config",
     "dx",
-    "presets"
+    "presets",
+    "@vue-laab/presets"
   ],
   "dependencies": {
     "@eslint/js": "^9.0.0",
