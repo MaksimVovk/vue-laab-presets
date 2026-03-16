@@ -21,10 +21,10 @@ npm install -D @vue-laab/presets
 - **ESLint** (eslint.config.js)
 
 ```js
-import vueLab from '@vue-laab/presets';
+import vueLaab from '@vue-laab/presets';
 
 export default [
-  ...vueLab,
+  ...vueLaab,
   {
     // Override or add project-specific rules here
   },
