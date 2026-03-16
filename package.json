@@ -1,12 +1,18 @@
 {
   "name": "@vue-laab/presets",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A collection of opinionated ESLint and Prettier configurations for Vue 3 development. Focused on clean code, reactivity safety, and consistent styling.",
   "main": "eslint.js",
   "exports": {
     ".": "./eslint.js",
     "./prettier": "./prettier.js"
   },
+  "files": [
+    "eslint.js",
+    "prettier.js",
+    "README.md",
+    "LICENSE"
+  ],
   "publishConfig": {
     "access": "public"
   },
