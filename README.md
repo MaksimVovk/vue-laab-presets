@@ -1,4 +1,4 @@
-# @vue-lab/presets 🧪
+# @vue-laab/presets 🧪
 
 A strictly opinionated set of configurations for **Vue 3** and **JavaScript** projects. Designed to enforce clean code, prevent reactivity pitfalls, and maintain a unified visual style.
 
@@ -13,7 +13,7 @@ A strictly opinionated set of configurations for **Vue 3** and **JavaScript** pr
 ## Installation
 
 ```bash
-npm install -D @vue-lab/presets
+npm install -D @vue-laab/presets
 ```
 
 ## Setup
@@ -21,7 +21,7 @@ npm install -D @vue-lab/presets
 - **ESLint** (eslint.config.js)
 
 ```js
-import vueLab from '@vue-lab/presets';
+import vueLab from '@vue-laab/presets';
 
 export default [
   ...vueLab,
@@ -34,7 +34,7 @@ export default [
 - **Prettier** (prettier.config.js)
 
 ```js
-import prettierConfig from '@vue-lab/presets/prettier';
+import prettierConfig from '@vue-laab/presets/prettier';
 
 export default {
   ...prettierConfig,
