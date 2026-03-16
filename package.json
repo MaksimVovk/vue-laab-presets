@@ -1,0 +1,28 @@
+{
+  "name": "@vue-lap/presets",
+  "version": "1.0.0",
+  "description": "A collection of opinionated ESLint and Prettier configurations for Vue 3 development. Focused on clean code, reactivity safety, and consistent styling.",
+  "main": "eslint.js",
+  "exports": {
+    ".": "./eslint.js",
+    "./prettier": "./prettier.js"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "eslint-config",
+    "prettier-config",
+    "dx",
+    "presets"
+  ],
+  "peerDependencies": {
+    "eslint": ">=9.0.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "@eslint/js": "^9.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "globals": "^15.0.0",
+    "prettier": ">=3.0.0"
+  },
+  "author": "M.Vovk",
+  "license": "ISC"
+}
