@@ -2,6 +2,10 @@
 
 A strictly opinionated set of configurations for **Vue 3** and **JavaScript** projects. Designed to enforce clean code, prevent reactivity pitfalls, and maintain a unified visual style.
 
+> [!IMPORTANT]
+> **Compatibility Note**: This package is optimized for **ESLint 9.x**.
+> Due to breaking changes in ESLint 10 (specifically the removal of `context.getSourceCode`), some Vue plugins may throw errors. We recommend sticking to ESLint `^9.0.0` until official plugin support for v10 is stabilized.
+
 ## Key Features
 
 - **Modern ESLint**: Fully compatible with ESLint 9+ Flat Config.
