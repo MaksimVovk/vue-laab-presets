@@ -33,6 +33,10 @@
     "prettier": ">=3.0.0",
     "eslint": ">=9.0.0"
   },
+  "peerDependencies": {
+    "eslint": ">=9.0.0",
+    "prettier": ">=3.0.0"
+  },
   "author": "M.Vovk",
   "license": "ISC",
   "repository": {
