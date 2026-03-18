@@ -34,5 +34,13 @@
     "eslint": ">=9.0.0"
   },
   "author": "M.Vovk",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaksimVovk/vue-laab-presets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MaksimVovk/vue-laab-presets/issues"
+  },
+  "homepage": "https://github.com/MaksimVovk/vue-laab-presets#readme"
 }
